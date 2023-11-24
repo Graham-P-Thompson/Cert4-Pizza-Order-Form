@@ -1,0 +1,58 @@
+/* Graham Thompson Order_form_application 07/04/2023 */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    align-self: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    font-size: 20px;
+}
+
+p {
+    align-self: center;
+}
+
+#orderForm {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#totalCost {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+#message {
+    width: 25%;
+    min-height: 20px;
+    align-self: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+#copyWrite {
+    font-size: 30px;
+    align-self: center;
+}

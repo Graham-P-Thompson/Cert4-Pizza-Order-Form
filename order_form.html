@@ -1,0 +1,37 @@
+<!-- Graham Thompson Order_form_application 07/04/2023 -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ordering form</title> 
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="index.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>PizzasOnly ordering form</h1>
+	</header>
+	<div id="container">
+		<p>Simply enter the number of pizzas you want into the input below to find out the cost of your order</p>
+		<form action="#" method="post" id="orderForm" onsubmit="return checkQuantity()">
+			
+			<p>
+				<label for="quantity">Enter number of pizzas wanted:</label>
+				<input type="number" name="quantity" id="quantity">
+				
+			</p>
+			<p>
+				<input id="totalCost" value="Calculate total cost" type="submit">
+
+			</p>
+		</form>
+		<div id="message"></div>
+	</div>
+	<footer>
+		<p id="copyWrite">&copy; Graham Thompson</p>
+	</footer>
+</body>
+</html>
